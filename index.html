@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Piedra, Papel o Tijera</title>
+	<!--FONT AWESOME-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!--GOOGLE FONTS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	<!--CSS-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="howtoplay" style="display: none;">
+		<p>Para jugar este juego únicamente debes de seleccionar piedra, papel o tijeras. Luego la maquina elegirá una de estas opciones totalmente al azar.</p>
+	</div>
+	<header>
+		<div class="navbar">
+			<div class="left-title">
+				<h1>CDgames</h1>
+			</div>
+			<div class="right-info">
+				<nav class="nav-header">
+					<ul class="ul-header">	
+						<li><a href="https://www.linkedin.com/in/cristian-d%C3%ADaz-390971222/" target="_blank"><i class="fas fa-star"></i>Contacto</a></li>
+						<li><a href="https://github.com/cristiandiazperdomo" target="_blank"><i class="fas fa-bullseye"></i>Otros proyectos</a></li>
+						<li><a href="https://www.linkedin.com/in/cristian-d%C3%ADaz-390971222/" target="_blank"><i class="fas fa-puzzle-piece"></i>Consultar dudas</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="phone_navbar">
+			<div class="bottom-info-phone">
+				<nav class="nav-header-phone">
+					<ul class="ul-header-phone">	
+						<li><a href="https://www.linkedin.com/in/cristian-d%C3%ADaz-390971222/" target="_blank"><i class="fas fa-star"></i>Contacto</a></li>
+						<li><a href="https://github.com/cristiandiazperdomo" target="_blank"><i class="fas fa-bullseye"></i>Otros proyectos</a></li>
+						<li><a href="https://www.linkedin.com/in/cristian-d%C3%ADaz-390971222/" target="_blank"><i class="fas fa-puzzle-piece"></i>Consultar dudas</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main id="main">
+		<section id="game_zone">
+			<h2>!! Piedra Papel o Tijeras !!</h2>
+			<article id="election_battle">
+				<div class="election">
+					<div id="election_people" class="election_text">
+						<p>TU ELECCIÓN</p>
+						<figure><img src="img/question.png" alt="question" class="election_people_img"></figure>
+					</div>
+					<div id="vs"><p>VS</p></div>
+					<div id="election_machine" class="election_text">
+						<p>MAQUINA</p>
+						<figure><img src="img/question.png" alt="question" class="election_machine_img"></figure>
+					</div>
+				</div>
+				<div id="result_zone">
+					<p id="result">RESULTADO</p>
+				</div>
+			</article>
+			<article id="options_zone">
+				<div class="options">
+					<div id="rock" value="rock" class="chosed" onclick="choiceOfPerson('rock')">
+						<figure><img src="img/rock.png" alt="rock" class="option-img"></figure>
+					</div>
+					<div id="paper" value="paper" class="chosed" onclick="choiceOfPerson('paper')">
+						<figure><img src="img/paper.png" alt="paper" class="option-img"></figure>
+					</div>
+					<div id="scissor" value="scissor" class="chosed" onclick="choiceOfPerson('scissor')">
+						<figure><img src="img/scissor.png" alt="scissor" class="option-img"></figure>
+					</div>
+				</div>
+				<div class="cover">
+					<button onclick="reset()">Reiniciar Juego</button>
+				</div>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<div class="whodidthis">
+			<div class="footer_title">
+				<h1>CDgames</h1>
+			</div>
+		</div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
