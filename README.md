@@ -12,3 +12,5 @@ Uso de etiquetas HTML especializadas al las vistas responsive como el meta viewp
 Uso de posiciones de componentes como Relative, Absolute para manipulación de muestra de objetos en la pagina asi como superposición de objetos a traves del z-index.
 Uso de Displays flex-box y grid para dar una alineación horizontal y en forma de grilla a los elementos para que tengan propiedades responsive con el tamaño de la pagina.
 Uso de MediaQueries para el control Responsive de la página web en otras pantallas.
+# Resultado
+Si quieres ver el resultado aquí esta [GitHub Pages](https://cristiandiazperdomo.github.io/Piedra-Papel-o-Tijera/)
